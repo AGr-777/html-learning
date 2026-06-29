@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: blueviolet;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 30px;
+}
+
+p {
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+}
