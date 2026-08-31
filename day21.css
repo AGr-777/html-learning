@@ -1,0 +1,58 @@
+body {
+    font-family: arial;
+    background-color: whitesmoke;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin: 40px;
+}
+
+.hero h1 {
+    color: darkblue;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: lightgreen;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    transition: 0.4s;
+}
+
+.card:hover {
+    background-color: lightslategray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
